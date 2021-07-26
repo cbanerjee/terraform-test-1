@@ -5,6 +5,12 @@ terraform {
     }
   }
 }
+variable "accessKey"{
+  type = string
+}
+variable "secretKey"{
+  type = string
+}
 
 # Configure the AWS Provider
 provider "aws" {
